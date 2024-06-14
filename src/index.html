@@ -44,24 +44,51 @@
             <div class="map__text-container">
               <h2 class="map__header">Using Where2Play</h2>
               <p class="map__description">
-                Find your location on the map and pick where you want to go
+                Type in your location or choose from the dropdown menu
               </p>
+              <div class="map__location-section">
+                <form action="" class="map__form">
+                  <input
+                    placeholder="type your location here"
+                    type="text"
+                    class="map__input"
+                  />
+                  <select name="locations" id="locations" class="map__input">
+                    <option value="">Leon Hotel</option>
+                    <option value="">Times Square</option>
+                    <option value="">Broadway Ave and 14th St</option>
+                  </select>
+                </form>
+                <button type="submit" class="map__submit-button">Submit</button>
+              </div>
               <p class="map__description">
                 Where2Play shows you playgrounds your kids can play along the
                 way
               </p>
-              <p class="map__description">
-                Filter by ADA accessibility and Comfort Rooms
-              </p>
             </div>
+            <div class="map__image-container"></div>
 
             <div class="map__container"></div>
             <div class="map__filter-container"></div>
           </section>
-          <section class="go-fund-me"></section>
+          <section class="testimonials"></section>
           <section class="about"></section>
         </main>
         <footer class="footer page__section"></footer>
+      </div>
+    </div>
+
+    <!-- Playground List Modal -->
+
+    <div class="modal" id="playground-list-modal">
+      <div class="modal__list-container">
+        <ul class="modal__list">
+          <li class="modal__list-item"></li>
+          <li class="modal__list-item"></li>
+          <li class="modal__list-item"></li>
+          <li class="modal__list-item"></li>
+          <li class="modal__list-item"></li>
+        </ul>
       </div>
     </div>
   </body>
