@@ -1,0 +1,21 @@
+.map {
+}
+
+.map__text-container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 500px;
+}
+
+.map__header {
+}
+
+.map__description {
+}
+
+.map__container {
+}
+
+.map__filter-container {
+}
