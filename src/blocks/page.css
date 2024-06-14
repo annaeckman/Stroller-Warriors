@@ -4,7 +4,8 @@
 }
 
 .page__section {
-  max-width: 1000px;
+  max-width: calc(100vh-20px);
+  height: 800px;
   width: 100%;
   position: relative;
   margin: 0 auto;
