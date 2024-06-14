@@ -1,10 +1,24 @@
 .header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 200px;
+  color: #000;
+  background-image: url("https://images.unsplash.com/photo-1620215140243-2f5c4361566a?q=80&w=2350&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
 }
 
 .header__title {
+  color: #fff;
 }
 
 .header__subtitle {
+  color: #fff;
+}
+
+.header__description {
+  color: #fff;
 }
 
 .header__logo {
