@@ -1,14 +1,18 @@
 {
-  "name": "practicum",
-  "version": "0.0.1",
-  "description": "Educational platform",
+  "name": "stroller-warriors",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "dev": "webpack serve --mode development"
   },
-  "keywords": [],
-  "author": "Elise Bouer",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/annaeckman/Stroller-Warriors.git"
+  },
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "7.18.9",
@@ -27,5 +31,9 @@
   },
   "dependencies": {
     "core-js": "3.23.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/annaeckman/Stroller-Warriors/issues"
+  },
+  "homepage": "https://github.com/annaeckman/Stroller-Warriors#readme"
 }
