@@ -13,12 +13,12 @@
   display: flex;
 }
 
-/* .modal_opened {
+.modal_opened {
   visibility: visible;
   opacity: 1;
 
   transition: visibility 0s, opacity 0.5s;
-} */
+}
 
 .modal__container {
   position: relative;
