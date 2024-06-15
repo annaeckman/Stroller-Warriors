@@ -24,6 +24,9 @@ module.exports = {
     open: true,
     liveReload: true,
     hot: false,
+    header: {
+      "X-Frame-Options": "sameorigin",
+    },
   },
   module: {
     rules: [

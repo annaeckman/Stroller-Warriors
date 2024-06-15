@@ -39,37 +39,58 @@
           </p>
         </header>
         <main class="content">
-          <section class="map">
-            <div class="map__text-container">
-              <h2 class="map__header">Using Where2Play</h2>
-              <p class="map__description">
-                Type in your location or choose from the dropdown menu
-              </p>
-              <div class="map__location-section">
-                <form action="" class="map__form">
-                  <input
-                    placeholder="type your location here"
-                    type="text"
-                    class="map__input"
-                  />
-                  <select name="locations" id="locations" class="map__input">
-                    <option value="">Leon Hotel</option>
-                    <option value="">Times Square</option>
-                    <option value="">Broadway Ave and 14th St</option>
-                  </select>
-                </form>
-                <button type="submit" class="map__submit-button">Submit</button>
+          <section class="location">
+            <div class="location__container">
+              <div class="location__text-container">
+                <h2 class="location__header">Using Where2Play</h2>
+                <p class="location__description">
+                  Type in your location or choose from the dropdown menu
+                </p>
+                <div class="location__location-section">
+                  <form action="" class="map__form">
+                    <location
+                      placeholder="type your location here"
+                      type="text"
+                      class="location__input"
+                    />
+                    <select
+                      name="locations"
+                      id="locations"
+                      class="location__input"
+                    >
+                      <option value="">Leon Hotel</option>
+                      <option value="">Times Square</option>
+                      <option value="">Broadway Ave and 14th St</option>
+                    </select>
+                  </form>
+                  <button type="submit" class="location__submit-button">
+                    Submit
+                  </button>
+                </div>
+                <p class="location__description">
+                  Where2Play shows you playgrounds your kids can play along the
+                  way
+                </p>
               </div>
-              <p class="map__description">
-                Where2Play shows you playgrounds your kids can play along the
-                way
-              </p>
+              <div class="location__image-container"></div>
             </div>
-            <div class="map__image-container"></div>
-
-            <div class="map__container"></div>
           </section>
-          <section class="testimonials"></section>
+          <section class="map">
+            <div class="map__container">
+              <iframe
+                class="map__map"
+                frameborder="0"
+                style="border: 0"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed/v1/directions
+?key=AIzaSyCfCOd519uxS6540qEedqOvxIfp-Kq9f8E
+&origin=leon+hotel,new+york,NY
+&destination=columbus+park+playground,new+york,ny
+&avoid=tolls|highways&mode=walking"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </section>
           <section class="about"></section>
         </main>
         <footer class="footer page__section"></footer>
@@ -151,9 +172,6 @@
             </ul>
           </li>
         </ul>
-        <button disabled type="submit" class="modal__submit-button">
-          Submit
-        </button>
       </div>
     </div>
   </body>
