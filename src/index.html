@@ -3,18 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="authors" content="anna, jose, robert, sindhu" />
-    <meta
-      name="description"
-      content="a place for families to find playgrounds on the way to their destination"
-    />
-    <meta
-      name="keywords"
-      content="families, closest playground, new york city, tourist"
-    />
+    <meta name="description" content="A place for families to find playgrounds on the way to their destination" />
+    <meta name="keywords" content="families, closest playground, New York City, tourist" />
     <title>Here to Play</title>
-  </head>
+    <style>
+        .super-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background: linear-gradient(270deg, #ff7e5f, #feb47b);
+            background-size: 400% 400%;
+            animation: gradientAnimation 8s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+
+        .site-title {
+            font-size: 24px;
+            color: white;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="super-header">
+        <img src="HTP_LOGO.png" alt="Site Logo" class="logo" />
+        <h1 class="site-title">Here to Play</h1>
+    </div>
   <body>
     <div class="page">
       <div class="page__content">
