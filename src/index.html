@@ -5,57 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="authors" content="anna, jose, robert, sindhu" />
-    <meta name="description" content="A place for families to find playgrounds on the way to their destination" />
-    <meta name="keywords" content="families, closest playground, New York City, tourist" />
+    <meta
+      name="description"
+      content="A place for families to find playgrounds on the way to their destination"
+    />
+    <meta
+      name="keywords"
+      content="families, closest playground, New York City, tourist"
+    />
     <title>Here to Play</title>
-    <style>
-        .super-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 20px;
-            background: linear-gradient(270deg, #ff7e5f, #feb47b);
-            background-size: 400% 400%;
-            animation: gradientAnimation 8s ease infinite;
-        }
-
-        @keyframes gradientAnimation {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-
-        .logo {
-            width: 100px;
-            height: auto;
-        }
-
-        .site-title {
-            font-size: 24px;
-            color: white;
-            margin: 0;
-        }
-    </style>
-</head>
-<body>
-    <div class="super-header">
-        <img src="HTP_LOGO.png" alt="Site Logo" class="logo" />
-        <h1 class="site-title">Here to Play</h1>
-    </div>
+  </head>
   <body>
     <div class="page">
       <div class="page__content">
-        <header class="header page__section">
+        <div class="super-header">
           <nav class="nav-bar">
             <ul class="nav__list">
               <li class="nav__list-item">About</li>
               <li class="nav__list-item">Testimonials</li>
-              <li class="nav__list-item">Find a Playground</li>
+              <li href="#location" class="nav__list-item">Find a Playground</li>
             </ul>
           </nav>
-          <img src="" alt="" class="header__logo" />
+          <div class="super-header__container">
+            <div class="logo__container"><div class="logo__image"></div></div>
+          </div>
+          <div class="super-header__text-container">
+            <h1 class="site-title">Here to Play</h1>
 
-          <h1 class="header__title">Where2Play</h1>
+            <h2 class="header__subtitle">Find Playgrounds as Your Travel</h2>
+            <h2 class="header__subtitle">
+              Accessible Playgrounds for Travelers with Kids
+            </h2>
+            <p class="header__description">
+              Where2Play is a simple interface that allows travel-minded parents
+              and families to find spaces for their kids to play.
+            </p>
+          </div>
+        </div>
+        <!-- 
+        <header class="header page__section">
+          <h1 class="site-title">Here to Play</h1>
+
           <h2 class="header__subtitle">Find Playgrounds as Your Travel</h2>
           <h2 class="header__subtitle">
             Accessible Playgrounds for Travelers with Kids
@@ -64,9 +54,9 @@
             Where2Play is a simple interface that allows travel-minded parents
             and families to find spaces for their kids to play.
           </p>
-        </header>
+        </header> -->
         <main class="content">
-          <section class="location">
+          <section class="location" id="location">
             <div class="location__container">
               <div class="location__text-container">
                 <h2 class="location__header">Using Where2Play</h2>
