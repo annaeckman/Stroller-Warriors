@@ -1,9 +1,11 @@
 .map__container {
   padding-top: 200px;
   margin-left: 150px;
+  height: 700px;
+  width: 1000px;
 }
 
 .map__map {
-  height: 700px;
-  width: 1000px;
+  height: 100%;
+  width: 100%;
 }

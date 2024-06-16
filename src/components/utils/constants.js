@@ -10,3 +10,5 @@ export const hotelLeonPlaygrounds = [
     "distance-to-hotel": 0.097,
   },
 ];
+
+//added the arrow above to try to add functionality about optimizing which playground is closest to current location (the leon hotel)
