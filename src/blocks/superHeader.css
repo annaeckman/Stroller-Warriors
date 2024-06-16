@@ -13,6 +13,7 @@
 }
 
 .super-header__text-container {
+  font-family: "Roboto-Bold", "Inter";
   display: flex;
   flex-direction: column;
   justify-content: center;
