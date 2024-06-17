@@ -1,0 +1,16 @@
+.footer {
+  color: white;
+  padding: 60px 0 60px 20px;
+  margin-left: 20px;
+  margin-top: 150px;
+}
+
+.footer__content {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-family: "Roboto-Bold";
+}
